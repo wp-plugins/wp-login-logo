@@ -29,10 +29,6 @@ A few notes about the sections above:
 *   "Tested up to" 4.2
 *   "Stable Version" 1.0.0
 
-= Localization =
-* Italy
-* English
-
 = Language =
 * English
 

@@ -148,7 +148,7 @@ class WPLoginLogo
                 <p><strong><?php _e('Settings Saved', 'wp-login-logo'); ?></strong></p>
             </div>
 
-            <p><?php printf(__('by %1$s from %2$s', 'wp-login-logo'), '<strong>Cris9400</strong>', '<strong><a href="http://cris9400.nerdnet.it" title="nn developer">Cris9400</a></strong>'); ?></p>
+            <p><?php printf(__('by %1$s from %2$s', 'wp-login-logo'), '<strong>Cris9400</strong>', '<strong><a href="http://cris9400.nerdnet.it" title="nn developer">cris9400.nerdnet.it</a></strong>'); ?></p>
 
             <h3><?php _e('How it Works', 'wp-login-logo'); ?></h3>
             <ol>
