@@ -43,7 +43,7 @@ A few notes about the sections above:
 * Twitter @[nerdnet_it](https://twitter.com/nerdnet.it)
 * Facebook [NerdNET](https://www.facebook.com/NerdNet.it)
 
-* [Plateforme WP digital](http://cris9400.nerdnet.it/work/)
+* [Work Station](http://cris9400.nerdnet.it/work/)
 
 == Installation ==
 
