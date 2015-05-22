@@ -1,5 +1,8 @@
 === WP Login Logo ===
 Author: Cris9400
+Contributors: Cris9400
+Author URI: http://cris9400.nerdnet.it/
+Plugin URL: http://cris9400.nerdnet.it/work/portfolio/wp-login-logo/
 Tags: login, logo, login logo, admin, customisation, customization, branding, custom login, media uploader, AJAX, wp-login
 Requires at least: 3.5
 Tested up to: 4.2
@@ -7,11 +10,11 @@ Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-A simple, lightweight WordPress plugin to change your login logo.
+This plugin is a simple, lightweight WordPress plugin to change your login logo.
 
 == Description ==
 
-View the plugin page for more information and discussion: [http://cris9400.nerdnet.it/work/2015/05/21/wp-login-logo/](cris9400@nerdnet.it)
+View the plugin page for more information and discussion: [http://cris9400.nerdnet.it/work/portfolio/wp-login-logo/](http://cris9400.nerdnet.it/work/portfolio/wp-login-logo/)
 
 WP Login Logo is a simple plugin I made so that I could customise the login screen on my own website by utilising in-built WordPress functions and the WordPress media uploader.
 Considering all the bloated plugins and resource intensive implementations floating around, I thought this lightweight codebase and clean UI could be of similar benefit to other WordPress users/developers.
@@ -25,6 +28,26 @@ A few notes about the sections above:
 *   "Requires at least" 3.5 or later
 *   "Tested up to" 4.2
 *   "Stable Version" 1.0.0
+
+= Localization =
+* Italy
+* English
+
+= Language =
+* English
+
+
+= My Links =
+
+* Facebook [Cris9400](https://www.facebook.com/cristian.tattini)
+* MyWEBSite [Cris9400 Portfolio](http://cris9400.nerdnet.it)
+
+= NerdNET Links =
+
+* Twitter @[nerdnet_it](https://twitter.com/nerdnet.it)
+* Facebook [NerdNET](https://www.facebook.com/NerdNet.it)
+
+* [Plateforme WP digital](http://cris9400.nerdnet.it/work/)
 
 == Installation ==
 
@@ -57,6 +80,11 @@ The path settings of the Plugin is "Settings -> WP Login Logo"
 2. The oh so simple settings page.
 
 == Changelog ==
+
+= Version 1.0.1 =
+
+* Change ReadMe.txt info.
+* Add contact link.
 
 = Version 1.0.0 =
 
