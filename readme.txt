@@ -35,17 +35,20 @@ A few notes about the sections above:
 
 = Cris9400 =
 Developer
+
 * Facebook [Cris9400](https://www.facebook.com/cristian.tattini)
 * MyWEBSite [Cris9400 Portfolio](http://cris9400.nerdnet.it)
 * [Work Station](http://cris9400.nerdnet.it/work/)
 
 = Disy =
 Graphics
+
 * Facebook [Disy](https://www.facebook.com/DisyMona)
 * Twitter @[Disy](https://twitter.com/96Blackice)
 * Instagram [DisyArt](https://instagram.com/disyart/)
 
 = NerdNET Links =
+
 * Twitter @[nerdnet_it](https://twitter.com/nerdnet.it)
 * Facebook [NerdNET](https://www.facebook.com/NerdNet.it)
 
