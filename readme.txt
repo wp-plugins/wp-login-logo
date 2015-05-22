@@ -23,7 +23,7 @@ Don't expect too many fancy bells and whistles, this plugin does one thing, and 
 
 A few notes about the sections above:
 
-*   "Contributors" @Cris9400
+*   "Contributors" @Cris9400, @Disy
 *   "Tags" login, logo, login logo, admin, customisation, customization, branding, custom login, media uploader, AJAX, wp-login
 *   "Requires at least" 3.5 or later
 *   "Tested up to" 4.2
@@ -33,10 +33,18 @@ A few notes about the sections above:
 * English
 
 
-= My Links =
+= Cris9400 =
+Developer
 
 * Facebook [Cris9400](https://www.facebook.com/cristian.tattini)
 * MyWEBSite [Cris9400 Portfolio](http://cris9400.nerdnet.it)
+
+= Disy =
+Graphics
+
+* Facebook [Disy](https://www.facebook.com/DisyMona)
+* Twitter @[Disy](https://twitter.com/96Blackice)
+* Instagram [DisyArt](https://instagram.com/disyart/)
 
 = NerdNET Links =
 
