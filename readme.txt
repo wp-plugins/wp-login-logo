@@ -27,7 +27,7 @@ A few notes about the sections above:
 *   "Tags" login, logo, login logo, admin, customisation, customization, branding, custom login, media uploader, AJAX, wp-login
 *   "Requires at least" 3.5 or later
 *   "Tested up to" 4.2
-*   "Stable Version" 1.0.0
+*   "Stable Version" 1.0.1
 
 = Language =
 * English
