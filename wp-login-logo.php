@@ -6,7 +6,7 @@
  * @link http://cris9400.nerdnet.it/work/portfolio/wp-login-logo/
  *
  * @author Cris9400
- * @version 1.0.1
+ * @version 1.0.2
  * @package WP_Login_Logo
  */
 
@@ -14,7 +14,7 @@
 * Plugin Name: WP Login Logo
 * Plugin URI: http://cris9400.nerdnet.it/work/portfolio/wp-login-logo/
 * Description: Change login logo (wp-login.php).
-* Version: 1.0.1
+* Version: 1.0.2
 * Author: Cris9400
 * Author URI: http://cris9400.nerdnet.it/
 * Text Domain: wp-login-logo
@@ -56,12 +56,12 @@ class WPLoginLogo
     /**
      * @const VERSION The current plugin version
      */
-    const VERSION = '1.0.0';
+    const VERSION = '1.0.2';
 
     /**
      * @const WPURL Link to author site
      */
-    const WPURL = 'http://cris9400.nerdnet.it/work/2015/05/21/wp-login-logo/';
+    const WPURL = 'http://cris9400.nerdnet.it/work/portfolio/wp-login-logo/';
 
     /**
      * Fire up the plugin and register them hooks
@@ -141,30 +141,96 @@ class WPLoginLogo
         ?>
 
         <div class="wrap wp-login-logo">
-            <?php screen_icon('edit-pages'); ?>
-            <h2>WP Login Logo</h2>
+		<?php screen_icon('edit-pages'); ?>
+		<div>
+		
+<script>
+function howitwork() {
+if(document.getElementById('howitwork').style.display == "none") {
+	document.getElementById("howitwork").style.display = 'block';
+} else {
+document.getElementById("howitwork").style.display = 'none';
+}
+}
+function buttonhide() {
+document.getElementById("howitwork").style.display = 'none';
+}
+
+</script>
+		
+		
+			<!-- Latest compiled and minified CSS -->
+				<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+			<!-- Optional theme -->
+				<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+
+			<!-- Latest compiled and minified JavaScript -->
+				<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+            
+			<!--<h2>WP Login Logo</h2>-->			
+			<nav class="navbar navbar-inverse">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<a class="navbar-brand" <?php echo 'href="' . self::WPURL . '"'; ?>>WP Login Logo</a>
+					</div>
+				<div>
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#" onclick="window.location.reload(true);">HOME</a></li>
+					<li><a href="#" onclick="howitwork()"><?php _e('HOW IT WORKS', 'wp-login-logo'); ?></a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="http://wordpress.org/support/plugin/wp-login-logo" target="_blanck">SUPPORT</a></li>
+					<li><a href="https://wordpress.org/plugins/wp-login-logo/changelog/" target="_blanck">CHANGELOG</a></li>
+					<li><a href="https://wordpress.org/support/view/plugin-reviews/wp-login-logo?rate=5#postform" target="_blanck">VOTE</a></li>
+					<li><a>&nbsp;&nbsp;&nbsp;Version <?php echo self::VERSION; ?></a></li>
+				</ul>
+				</div>
+				</div>
+			</nav>
+		</div>
+            <!--<h2>WP Login Logo</h2>-->
 
             <div class="updated fade update-status">
                 <p><strong><?php _e('Settings Saved', 'wp-login-logo'); ?></strong></p>
             </div>
 
-            <p><?php printf(__('by %1$s from %2$s', 'wp-login-logo'), '<strong>Cris9400</strong>', '<strong><a href="http://cris9400.nerdnet.it" title="nn developer">cris9400.nerdnet.it</a></strong>'); ?></p>
-
-            <h3><?php _e('How it Works', 'wp-login-logo'); ?></h3>
+            <p><?php //printf(__('by %1$s from %2$s', 'wp-login-logo'), '<strong>Cris9400</strong>', '<strong><a href="http://cris9400.nerdnet.it" title="nn developer">cris9400.nerdnet.it</a></strong>'); ?></p>
+<div class="panel panel-info" id="howitwork" style="display: none">
+ <div class="panel-heading">
+ <div class="row">
+  <div class="col-lg-11">
+         <h4><?php _e('HOW IT WORKS', 'wp-login-logo'); ?></h4>
+	</div>
+<div class="col-lg-1">
+<center>
+		 <button type="button" class="btn btn-info" onclick="buttonhide()" ><span class="glyphicon glyphicon-minus" aria-hidden="true"></span></button>
+</center>
+</div>
+		 </div>
+</div>
+ <div class="panel-footer">
             <ol>
                 <li><?php _e('Use the WordPress media uploader to upload an image, or select one from the media library.', 'wp-login-logo'); ?></li>
                 <li><?php _e('It is highly recommended that you select an image with a width less than 320px.', 'wp-login-logo'); ?></li>
                 <li><?php _e('Select your desired image size and click "insert into post".', 'wp-login-logo'); ?></li>
             </ol>
+</div>
+</div>
+		<center>
+			<h3><?php _e('CHANGE YOUR LOGO', 'wp-login-logo'); ?></h3>
             <form class="inputfields">
                 <input id="upload-input" type="text" size="36" name="upload image" class="upload-image" value="" />
-                <input id="upload-button" type="button" value="<?php _e('Upload Image', 'wp-login-logo'); ?>" class="upload-image" />
+                <input id="upload-button" type="button" value="<?php _e('Upload Image', 'wp-login-logo'); ?>" class="upload-image" data-toggle="tooltip" data-placement="right" title="Read How it Works for More INFO" />
                 <?php wp_nonce_field('wp_login_logo_action','wp_login_logo_nonce'); ?>
             </form>
+			<br/>
             <div class="img-holder">
-                <p><?php _e('Here is a preview of your selected image at actual size', 'wp-login-logo'); ?></p>
+                <div class="alert alert-success" role="alert"><p><?php _e('Here is a preview of your selected image at actual size!', 'wp-login-logo'); ?></p></div>
                 <div class="img-preview"></div>
             </div>
+		</center>
+			<a href="http://cris9400.nerdnet.it/"><img style="position: relative; left: 90%;" src="<?php echo plugins_url('/images/dev_logo.png', __FILE__ )?>" height="50px"></a>
         </div>
 
         <?php

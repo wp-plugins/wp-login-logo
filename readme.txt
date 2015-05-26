@@ -5,8 +5,8 @@ Author URI: http://cris9400.nerdnet.it/
 Plugin URL: http://cris9400.nerdnet.it/work/portfolio/wp-login-logo/
 Tags: login, logo, login logo, admin, customisation, customization, branding, custom login, media uploader, AJAX, wp-login
 Requires at least: 3.5
-Tested up to: 4.2
-Stable tag: 1.0.0
+Tested up to: 4.2.2
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -26,8 +26,8 @@ A few notes about the sections above:
 *   "Contributors" @Cris9400, @Disy
 *   "Tags" login, logo, login logo, admin, customisation, customization, branding, custom login, media uploader, AJAX, wp-login
 *   "Requires at least" 3.5 or later
-*   "Tested up to" 4.2
-*   "Stable Version" 1.0.1
+*   "Tested up to" 4.2.2
+*   "Stable Version" 1.0.2
 
 = Language =
 * English
@@ -84,7 +84,17 @@ The path settings of the Plugin is "Settings -> WP Login Logo"
 
 2. The oh so simple settings page.
 
+3. Menu Version 1.0.2
+
+4. How to Works Versions 1.0.2
+
 == Changelog ==
+
+= Version 1.0.2 =
+
+* New Menu with new functions
+* Add Bootstrap Featured
+* Change Admin Page Design
 
 = Version 1.0.1 =
 
