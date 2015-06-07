@@ -2,11 +2,11 @@
 Author: Cris9400
 Contributors: Cris9400
 Author URI: http://cris9400.nerdnet.it/
-Plugin URL: http://cris9400.nerdnet.it/work/portfolio/wp-login-logo/
+Plugin URL: http://workstation.nerdnet.it/portfolio/wp-login-logo/
 Tags: login, logo, login logo, admin, customisation, customization, branding, custom login, media uploader, AJAX, wp-login
 Requires at least: 3.5
 Tested up to: 4.2.2
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -14,7 +14,7 @@ This plugin is a simple, lightweight WordPress plugin to change your login logo.
 
 == Description ==
 
-View the plugin page for more information and discussion: [http://cris9400.nerdnet.it/work/portfolio/wp-login-logo/](http://cris9400.nerdnet.it/work/portfolio/wp-login-logo/)
+View the plugin page for more information and discussion: [http://workstation.nerdnet.it/portfolio/wp-login-logo/](http://workstation.nerdnet.it/portfolio/wp-login-logo/)
 
 WP Login Logo is a simple plugin I made so that I could customise the login screen on my own website by utilising in-built WordPress functions and the WordPress media uploader.
 Considering all the bloated plugins and resource intensive implementations floating around, I thought this lightweight codebase and clean UI could be of similar benefit to other WordPress users/developers.
@@ -27,7 +27,7 @@ A few notes about the sections above:
 *   "Tags" login, logo, login logo, admin, customisation, customization, branding, custom login, media uploader, AJAX, wp-login
 *   "Requires at least" 3.5 or later
 *   "Tested up to" 4.2.2
-*   "Stable Version" 1.0.2
+*   "Stable Version" 1.0.3
 
 = Language =
 * English
@@ -38,7 +38,7 @@ Developer
 
 * Facebook [Cris9400](https://www.facebook.com/cristian.tattini)
 * MyWEBSite [Cris9400 Portfolio](http://cris9400.nerdnet.it)
-* [Work Station](http://cris9400.nerdnet.it/work/)
+* [Work Station](http://workstation.nerdnet.it/)
 
 = Disy =
 Graphics
@@ -52,7 +52,7 @@ Graphics
 * Twitter @[nerdnet_it](https://twitter.com/nerdnet.it)
 * Facebook [NerdNET](https://www.facebook.com/NerdNet.it)
 
-* [Work Station](http://cris9400.nerdnet.it/work/)
+* [Work Station](http://workstation.nerdnet.it/)
 
 == Installation ==
 
@@ -90,6 +90,10 @@ The path settings of the Plugin is "Settings -> WP Login Logo"
 
 == Changelog ==
 
+= Version 1.0.3 =
+
+* Change WorkStation Direction
+
 = Version 1.0.2 =
 
 * New Menu with new functions
@@ -104,4 +108,3 @@ The path settings of the Plugin is "Settings -> WP Login Logo"
 = Version 1.0.0 =
 
 * First Release.
-

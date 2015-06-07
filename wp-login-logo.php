@@ -3,18 +3,18 @@
 /**
  * WP Login Logo
  *
- * @link http://cris9400.nerdnet.it/work/portfolio/wp-login-logo/
+ * @link http://workstation.nerdnet.it/portfolio/wp-login-logo/
  *
  * @author Cris9400
- * @version 1.0.2
+ * @version 1.0.3
  * @package WP_Login_Logo
  */
 
 /*
 * Plugin Name: WP Login Logo
-* Plugin URI: http://cris9400.nerdnet.it/work/portfolio/wp-login-logo/
+* Plugin URI: http://workstation.nerdnet.it/portfolio/wp-login-logo/
 * Description: Change login logo (wp-login.php).
-* Version: 1.0.2
+* Version: 1.0.3
 * Author: Cris9400
 * Author URI: http://cris9400.nerdnet.it/
 * Text Domain: wp-login-logo
@@ -56,12 +56,12 @@ class WPLoginLogo
     /**
      * @const VERSION The current plugin version
      */
-    const VERSION = '1.0.2';
+    const VERSION = '1.0.3';
 
     /**
      * @const WPURL Link to author site
      */
-    const WPURL = 'http://cris9400.nerdnet.it/work/portfolio/wp-login-logo/';
+    const WPURL = 'http://workstation.nerdnet.it/portfolio/wp-login-logo/';
 
     /**
      * Fire up the plugin and register them hooks
