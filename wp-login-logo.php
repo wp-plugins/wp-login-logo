@@ -6,7 +6,7 @@
  * @link http://workstation.nerdnet.it/portfolio/wp-login-logo/
  *
  * @author Cris9400
- * @version 1.0.3
+ * @version 1.0.4
  * @package WP_Login_Logo
  */
 
@@ -14,7 +14,7 @@
 * Plugin Name: WP Login Logo
 * Plugin URI: http://workstation.nerdnet.it/portfolio/wp-login-logo/
 * Description: Change login logo (wp-login.php).
-* Version: 1.0.3
+* Version: 1.0.4
 * Author: Cris9400
 * Author URI: http://cris9400.nerdnet.it/
 * Text Domain: wp-login-logo
@@ -56,7 +56,7 @@ class WPLoginLogo
     /**
      * @const VERSION The current plugin version
      */
-    const VERSION = '1.0.3';
+    const VERSION = '1.0.4';
 
     /**
      * @const WPURL Link to author site
@@ -217,6 +217,7 @@ document.getElementById("howitwork").style.display = 'none';
             </ol>
 </div>
 </div>
+<div class="col-lg-9">
 		<center>
 			<h3><?php _e('CHANGE YOUR LOGO', 'wp-login-logo'); ?></h3>
             <form class="inputfields">
@@ -230,6 +231,40 @@ document.getElementById("howitwork").style.display = 'none';
                 <div class="img-preview"></div>
             </div>
 		</center>
+</div>
+<div class="col-lg-3">	
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <center><h3 class="panel-title"><?php _e('Donate to NerdNET', 'wp-login-logo'); ?></h3></center>
+  </div>
+  <div class="panel-body">
+	<p>
+	<center><?php _e('Donate to support the community and allow the development team to continue working by supporting at least part of the costs of management and hosting.', 'wp-login-logo'); ?></center>
+	</p>
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+			<input type="hidden" name="cmd" value="_s-xclick">
+			<input type="hidden" name="hosted_button_id" value="S65MNVSU4D4U6">
+			<input type="image" width="100%" src="http://workstation.nerdnet.it/wp-content/uploads/2015/06/donate-button.png" border="0" name="submit" alt="PayPal - Il metodo rapido, affidabile e innovativo per pagare e farsi pagare.">
+			<img alt="" border="0" src="https://www.paypalobjects.com/it_IT/i/scr/pixel.gif" width="1" height="1">
+	</form>
+  </div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <center><h3 class="panel-title"><?php _e('WorkStation', 'wp-login-logo'); ?></h3></center>
+  </div>
+  <div class="panel-body">
+	<p>
+	<center><?php _e('Find more content in our development center!', 'wp-login-logo'); ?></center>
+	</p>
+	<a href="http://workstation.nerdnet.it/" target="_blank"><button type="button" width="100%" class="btn btn-info btn-lg">WorkStation</button></a>
+	<a href="http://workstation.nerdnet.it/wordpress/" target="_blank"><button type="button" width="50%" class="btn btn-primary">Plugins</button></a>
+	<a href="http://workstation.nerdnet.it/wordpress/" target="_blank"><button type="button" width="100%" class="btn btn-success">Theme</button></a>
+  </div>
+</div>
+</div>
+		
 			<a href="http://cris9400.nerdnet.it/"><img style="position: relative; left: 90%;" src="<?php echo plugins_url('/images/dev_logo.png', __FILE__ )?>" height="50px"></a>
         </div>
 
